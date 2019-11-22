@@ -308,6 +308,7 @@ jQuery(document).ready(function($) {
   };
   siteScroll();
   setTimeout( function(){ 
+   $(".eapps-instagram-feed-container").next().next().next().hide();
    $(".eapps-widget-toolbar").next().hide(); 
   }  , 6000 );
   
